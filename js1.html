@@ -16,7 +16,9 @@
       if (isNaN(numChildren)) {
         document.write("Please type a valid number");
       } else if (numChildren == 0) {
-        document.write("You have no child");
+        document.write("You have no children");
+      } else if (numChildren == 1) {
+        document.write("You have one child");
       } else {
         document.write("You have " + numChildren + " children");
       }
