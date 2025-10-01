@@ -12,12 +12,12 @@
       let num2 = parseInt(prompt("What is the largest number?"));
       let sum = 0;
       for (let i = num1; i <= num2; i++) {
+        sum += i;
         if (i % 2 !== 0) {
           document.write(i + " ");
-          sum += i;
         }
       }
-      document.write("<br>The sum of odd numbers is " + sum);
+      document.write("<br>The sum of all numbers is " + sum);
     </script>
   </body>
 </html>
